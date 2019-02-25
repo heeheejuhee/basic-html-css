@@ -1,0 +1,68 @@
+body {
+	font-family: verdana;
+	background-color: #f26226;
+	background-image: url(backgroundPattern.png);
+	background:repeat;
+	background-repeat: repeat-x;
+}
+
+h1 {
+	font-size: 16px;
+	color: #f26226;
+}
+
+p {
+	font-size: 12px;
+	color: #666666;
+	line-height: 150%;
+	text-indent: 20px;
+}
+
+ul {
+	list-style: none;
+}
+
+.nav li a {
+	text-decoration: none;
+	display:block;
+	color: #f26226;
+	text-decoration: none;
+	font-weight: bold;
+	font-size: 12px;
+	text-indent: 20px;
+	line-height: 30px;
+	border-bottom: 1px gray dotted;
+	transition: all ease 0.3s;
+
+}
+
+.nav li a:hover {
+	background-color: #f26226;
+	color: white;
+}
+
+
+.nav {
+	padding-left: 50px;
+	width: 160px;
+	background-color: white;
+}
+
+.container {
+	margin: auto;
+	max-width: 800px;
+	display: flex;
+	background-color: white;
+}
+
+.content {
+	width: 600px;
+	padding-left: 50px;
+}
+
+
+
+
+
+
+

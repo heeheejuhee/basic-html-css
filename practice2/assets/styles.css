@@ -1,0 +1,171 @@
+*{
+	margin:0;
+	padding:0;
+	border:none;
+	list-style-type: none;
+}
+
+body{
+	background-image: url(background.jpg);
+	background-repeat: repeat-x;
+	background-color: #271E0F;
+	font-family: Arial;
+	color: #FFF;
+	font-size:14px;
+
+}
+
+
+.wrap{
+	width: 800px;
+	margin: auto;
+}
+
+/*----------------------head section------------------*/
+header{
+	
+}
+
+.logo{
+
+	margin-left:50px;
+}
+.logo-type{
+
+	margin-bottom:23px;
+
+}
+
+/*----------------------main section------------------*/
+main{
+	display: flex;
+	margin-top:20px;
+}
+.left{
+
+	flex:0 0 150px;
+
+
+}
+
+.left li{
+	
+	margin-bottom: 1px;
+}
+
+.left li a{
+	height:45px;
+	display:block;
+	text-align: right;
+	padding-right:20px;
+	background-color:rgba(0,0,0,0.3);
+	text-decoration:none;
+	color:#FFF;
+	line-height:45px;
+}
+
+.left li a:hover{
+	background-color:#000;
+	color:#AEDBFC;
+}
+
+.middle{
+
+	flex:0 0 430px;
+	margin:0px 20px;
+	
+}
+
+h1{
+	height:25px;
+	line-height:25px;
+	font-family:'Century Gothic';
+	font-size:16px;
+	color:#FFF;
+	border-bottom: #AEDBFC 1px solid;
+	font-weight:normal;
+	margin-bottom:10px;
+}
+
+.middle p img{
+	width:200px;
+	height:259px;
+	float:left;
+	margin-right:10px;
+	
+}
+
+.middle p:nth-of-type(1){
+
+	color:#AEDBFC;
+	font-family:"Times New Roman";
+	font-size:18px;
+	font-style:italic;
+	
+}
+
+.middle p{
+	
+	line-height:150%;
+	margin-bottom:20px;
+	
+}
+
+.right{
+
+	flex:0 0 180px;
+
+	margin-bottom:20px;
+
+}
+
+.right ul{
+	width:148px;
+	margin:0px auto;
+}
+
+.right ul>li{
+	
+	margin-bottom: 15px;
+}
+
+.right ul>li>a{
+	background-color:rgba(0,0,0,0.3);
+	height:148px;
+	display:block;
+	background-repeat:no-repeat;
+	background-position:center;
+	font-size: 0;
+}
+
+.right ul>li>a:hover{
+	background-color:#000;
+}
+
+
+.right ul>li:nth-child(1)>a{
+	background-image:url(site1.jpg);
+}
+.right ul>li:nth-child(2)>a{
+	background-image:url(site2.jpg);
+}
+.right ul>li:nth-child(3)>a{
+	background-image:url(site3.jpg);
+}
+
+
+/*----------------------footer section------------------*/
+footer{
+
+	background-color:rgba(0,0,0,0.3);
+	height:55px;
+	line-height:55px;
+	text-align:center;
+
+}
+
+
+footer a{
+	text-decoration:none;
+	color:#aedbfc;
+}
