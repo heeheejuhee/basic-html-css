@@ -28,6 +28,13 @@ body {
 .container .form-group {
 	display: flex;
 	margin: 10px;
+	position: relative;
+}
+
+.container .form-group i {
+	position: absolute;
+	top:5px;
+	left:41%;
 }
 .container label {
 	display: block;
@@ -67,16 +74,16 @@ body {
 	margin-left: 40%;
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
+.container .contact-method-group  {
+	flex: 0 0 50%;
+	display: flex;
+	flex-wrap: wrap;
+}
+.container .contact-method-group label {
+	text-align: left;
+	font-size: 12px;
+	flex: 1 0 40%;
+}
+.container .contact-method-group label input {
+	margin-right: 10px;
+}

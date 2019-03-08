@@ -5,6 +5,7 @@
 	<title>Document</title>
 	<link rel="stylesheet" href="https://unpkg.com/purecss@1.0.0/build/pure-min.css">
 	<link rel="stylesheet" href="style.css">
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
 </head>
 <body>
 	<div class="container">
@@ -12,7 +13,7 @@
 		<form action="">
 
 			<div class="form-group">
-				<label for="first-name">First Name <span>Enter your first name</span></label>
+				<label for="first-name">First Name <span>Enter your first name</span><i class="far fa-user"></i></label>
 				<input type="text" id="first-name" name="first-name">
 			</div>
 			<div class="form-group">
@@ -27,6 +28,23 @@
 				<label for="contact-number">Contact number<span>Enter your number</span></label>
 				<input type="text" id="contact-number" name="contact-number">
 			</div>
+
+			<!-- Checkbox form -->
+
+			<div class="form-group">
+				
+				<label for="?">Contact methods <span>Coose your method</span></label>
+
+				<div class="contact-method-group">
+					<label><input type="checkbox" name="contact-method1">Phone</label>
+					<label><input type="checkbox" name="contact-method2">Email</label>
+					<label><input type="checkbox" name="contact-method3">Skype</label>
+					<label><input type="checkbox" name="contact-method4">Visit</label>
+					<label><input type="checkbox" name="contact-method5">Fax</label>
+					<label><input type="checkbox" name="contact-method6">Birds</label>
+				</div>
+			</div>
+
 			<div class="form-group">
 				<input type="reset" value="Reset" name="reset" class="button">
 				<input type="submit" value="Send" name="send" class="button">

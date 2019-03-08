@@ -14,10 +14,10 @@ body{
 	width: 1000px;
 	margin: 100px auto;
 	display: flex;
-	background-color: #4D566d;
-	border: 5px #f0bcce solid;
-	border-radius: 3px;
-	box-shadow: 6px 6px 57px -5px rgba(0,0,0,0.5);
+	/*background-color: #4D566d;*/
+	/*border: 5px #f0bcce solid;*/
+	/*border-radius: 3px;*/
+	/*box-shadow: 6px 6px 57px -5px rgba(0,0,0,0.5);*/
 }
 
 .nav ul{
@@ -26,10 +26,11 @@ body{
 	top: 100%;
 	left: 0;
 	width: 100%;
-	background-color: #f0bcce;
-	border-radius: 1px;
-	box-shadow: 6px 6px 57px -5px rgba(0,0,0,0.3);
 	display: none;
+	/*background-color: #f0bcce;*/
+	/*border-radius: 1px;*/
+	/*box-shadow: 6px 6px 57px -5px rgba(0,0,0,0.3);*/
+	
 }
 
 .nav ul>li {
