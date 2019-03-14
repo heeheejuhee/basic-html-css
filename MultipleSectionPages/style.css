@@ -1,0 +1,159 @@
+/*All devices and mobile phone*/
+
+* {
+	padding: 0;
+    margin: 0;
+    list-style-type: none;
+}
+
+/*--------------------------------NAVIGATION BAR--------*/
+
+header {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #C2EBDA;
+    position: relative;
+}
+
+.logo {
+	flex: 0 0 auto;
+	padding: 1em 2em;
+}
+.logo i {
+	font-size: 3em;
+}
+
+.bars {
+	flex: 0 0 auto;
+    margin-right: 2em;
+}
+.bars i {
+	font-size: 2em;
+}
+
+.nav {
+	/*flex: 0 0 100%;*/
+	background-color: rgba(0,0,0,0.2);
+	display: none;
+	position: absolute;
+	top:100%;
+	left:0;
+	width: 100%;
+
+}
+.nav>li {
+	padding:1em;
+}
+.nav>li>a {
+	text-decoration: none;
+	color: white;
+	font-size: 1.5em;
+	margin-left: 1.2em;
+}
+.nav>li>a:hover {
+	color: #C2EBDA;
+}
+
+/*-----------------------------------------SECTION 1 --------*/
+
+.section1 {
+	/*background-color: rgba(0,0,0,0.2);*/
+	background-image: url(assets/hero.jpg);
+	background-size: cover;
+	background-position: right;
+}
+.section1>.container {
+	min-height: 30em;
+}
+.section1>.container>.text {
+	text-align: center;
+	padding-top: 150px;
+	font-size: 100px;
+	color: white;
+}
+.section1>.container>.text>p {
+	text-align: center;
+	font-size: 30px;
+	color: white;
+}
+
+/*-----------------------------------------SECTION 2 --------*/
+
+.section2 {
+	background-color: black;
+}
+.section2>.container {
+	min-height: 30em;
+}
+/*.section2>.container>.box {
+	width: 25em;
+	height: 10em;
+	background-color: #fff;
+	display: flex;
+}
+.section2>.container>.box1 {
+	width: 25em;
+	height: 10em;
+	background-color: red;
+}*/
+
+
+
+
+
+
+/*for small tablet - inclusive*/
+
+@media only screen and (min-width : 40em) {
+	
+	.nav {
+		flex: 0 0 auto;
+		position: static;
+		width: auto;
+		display: flex !important;
+		background-color: rgba(0,0,0,0);
+	}
+	.nav>li>a{
+		display: inline-block;
+		position: relative;
+		line-height: 2em;
+		text-decoration: none;
+		color:#323232;
+		/*margin: 1em 2em;*/
+		font-size: 24px;
+	}
+	.nav>li>a:hover {
+		color: black;
+	}
+	.nav>li>a:hover:before {
+		color: #FC9399;
+		width: 100%;
+		position: absolute;
+	}
+	.bars {
+		display: none;
+	}
+}
+
+
+
+/*for small tablet - exclusive - use with care*/
+
+@media only screen and (min-width : 40em) and (max-width : 59.99999em) {
+}
+
+
+
+/*for tablet - inclusive*/
+
+@media only screen and (min-width : 60em) {
+}
+
+
+
+/*for destop - inclusive*/
+
+@media only screen and (min-width : 80em) {
+}

@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Responsive image & section layout</title>
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+	<link rel="stylesheet" href="style.css">
+</head>
+<body>
+	<div class="wrap">
+		<header>
+			<div class="logo"><i class="fas fa-signature"></i><!-- <span>JH</span> --></div>
+			<div class="bars"><i class="fas fa-bars"></i></div>
+			<ul class="nav">
+				<li>
+					<a href="">Home</a>
+				</li>
+				<li>
+					<a href="">Services</a>
+				</li>
+				<li>
+					<a href="">Our team</a>
+				</li>
+				<li>
+					<a href="">Contact</a>
+				</li>
+				<li>
+					<a href="">About</a>
+				</li>
+			</ul>
+		</header>
+		<section class="section1">
+			<div class="container">
+				<div class="text">hello
+					<p>Lorem ipsum dolor sit amet, consectetur.</p>
+				</div>
+
+			</div>	
+		</section>
+		<section class="section2">
+			<div class="container">
+				<div class="box box1"></div>
+				<div class="box box2"></div>
+				<div class="box box3"></div>
+			</div>
+		</section>
+		<section class="section3">
+			<div class="container"></div>
+		</section>
+	</div>
+
+
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+	<script type="text/javascript">
+		
+		$('.bars').on('click',function(){
+			$('.nav').slideToggle();
+		});
+
+	</script>
+
+
+
+
+</body>
+</html>

@@ -1,0 +1,41 @@
+/*All devices and mobile phone*/
+
+.section1 {
+	background-color: rgba(0,0,0,0.2);
+}
+.section2 {
+	background-color: rgba(0,0,0,0.4);
+}
+.section3 {
+	background-color: rgba(0,0,0,0.6);
+}
+
+.container {
+	min-height: 10em;
+}
+
+/*for small tablet - inclusive*/
+
+@media only screen and (min-width : 40em) {
+}
+
+
+
+/*for small tablet - exclusive - use with care*/
+
+@media only screen and (min-width : 40em) and (max-width : 59.99999em) {
+}
+
+
+
+/*for tablet - inclusive*/
+
+@media only screen and (min-width : 60em) {
+}
+
+
+
+/*for destop - inclusive*/
+
+@media only screen and (min-width : 80em) {
+}

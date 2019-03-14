@@ -1,0 +1,100 @@
+*{
+	padding: 0;
+	margin: 0;
+	list-style-type: none;
+	font-family: 'Palanquin Dark', sans-serif;
+}
+
+/*All devices and mobile phone*/
+header {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	align-items: center;
+	background-color: #E3E6E7;
+}
+
+.logo {
+	flex: 0 0 auto;
+	padding: 1em 2em;
+}
+
+.logo i {
+	font-size: 2em;
+}
+
+.bars {
+	flex: 0 0 auto;
+	margin-right: 2em;
+}
+
+.nav{
+	flex:1 0 95%;
+	/*display: none;*/
+	background-color: #F0F0F0;
+}
+
+.nav>li {
+	margin: 1em 4em;
+}
+.nav>li>a{
+	display: inline-block;
+	position: relative;
+	line-height: 2em;
+	text-decoration: none;
+	color:#323232;
+	/*margin: 1em 2em;*/
+	font-size: 24px;
+}
+.nav>li>a:before{
+	position: absolute;
+	content: '';
+	left: 0;
+	right: 0;
+	width: 0;
+	height: 100%;
+	border-bottom: 2px solid #FC9399;
+	transition: 0.3s all ease-in-out;
+}
+.nav>li>a:hover{
+	color: #FC9399;
+}
+
+.nav>li>a:hover:before{
+	color: #FC9399;
+	width: 100%;
+}
+
+.logo>span{
+	font-size: 2em;
+	font-family: 'Source Sans Pro', sans-serif;
+	margin-left: 8px;
+}
+
+/*for small tablet - inclusive*/
+
+@media only screen and (min-width : 40em) {
+
+}
+
+
+
+/*for small tablet - exclusive - use with care*/
+
+@media only screen and (min-width : 40em) and (max-width : 59.99999em) {
+}
+
+
+
+/*for tablet - inclusive*/
+
+@media only screen and (min-width : 60em) {
+}
+
+
+
+/*for destop - inclusive*/
+
+@media only screen and (min-width : 80em) {
+}
+
